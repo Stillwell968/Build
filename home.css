@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero1 {
+    background-image: url('Rectangle4271.png');
+    background-size: cover;
+    /* width: 1518px;
+height: 589px; */
+
+}
+
+.hero1 a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.hero a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.navBar h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+li,
+a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero1 h1 {
+    /* DIsplay 02/extrabold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    /* font-size: 90px; */
+    line-height: 72px;
+    /* identical to box height, or 120% */
+    letter-spacing: -0.04em;
+    font-size: calc(1.0rem + 1.3vw);
+
+    /* GRAY/800gray */
+    color: #fff;
+}
+
+.leading {
+    /* Subheading/ subheading semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 30px; */
+    /* line-height: 24px; */
+    /* or 120% */
+    /* font-size: calc(0.8rem + 0vw); */
+
+    color: #fff;
+}
+
+.preceed {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    /* font-size: 20px; */
+    line-height: 24px;
+    /* or 120% */
+    font-size: calc(0.525rem + 0.3vw);
+
+    color: #db855d;
+}
+
+
+.hero1 button {
+    /* Black */
+    background: #BFA267;
+    border-radius: 6px;
+
+
+    /* Text */
+
+     font-size: calc(0.6rem + 0.2vw);
+    height:calc(1.6rem + 0.2vw); 
+
+    /* Paragraph02/ paragraph02 semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 19px; */
+    /* identical to box height, or 119% */
+
+    /* White */
+    color: #fff;
+}
+
+.hero button {
+    /* Black */
+    background: #000000;
+    border-radius: 6px;
+
+
+    /* Text */
+
+    width: 115px;
+    height: 40px;
+
+    /* Paragraph02/ paragraph02 semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height, or 119% */
+
+    /* White */
+    color: #FFFFFF;
+}
+
+@media (max-width: 575.98px) {
+    .hero1 h1{
+        font-size: 1px;
+    } 
+}
+
+@media (max-width: 767.98px) { 
+    .hero1 h1{
+        font-size: 13px;
+    } 
+ }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 1399.98px) { }
+
+
+/* hero 2 */
+.hero2 h1 {
+    /* Heading 03 small/ h3 bold(S) */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+}
+
+.hero2 h4 {
+    /* Paragraph01/paragraph01 semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 34px;
+    /* or 121% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+
+.hero2 p {
+    /* Caption/ caption regular */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 140% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.8px;
+
+    /* GRAY/800gray */
+    color: #1F2937;
+}
+
+/* hero two  */
+
+/* hero three */
+.hero3 {
+
+    margin-top: 130px;
+}
+
+.hero3 h1 {
+    /* Heading 03 small/ h3 bold(S) */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34.2778px;
+    line-height: 38px;
+    /* identical to box height, or 110% */
+
+    letter-spacing: -1.28542px;
+
+    /* Black */
+    color: #000000;
+}
+
+
+.hero3 h5 {
+    /* Paragraph01/paragraph01 semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.7196px;
+    line-height: 22px;
+    /* identical to box height, or 133% */
+
+
+    letter-spacing: -0.696651px;
+
+    /* Neo Brown/Neo brown 500 */
+
+    color: #BFA267;
+}
+
+.hero3 h2 {
+    /* Paragraph01/paragraph01 semibold */
+    font-family: 'Inter';
+    font-style: initial;
+    font-weight: lighter;
+    font-size: 17.1389px;
+    line-height: 26px;
+    /* identical to box height, or 150% */
+
+
+    letter-spacing: -0.685556px;
+
+    /* GRAY/800gray */
+    color: #1F2937;
+}
+
+
+.hero3 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 20px;
+
+    color: #1F2937;
+}
+
+.hero3 img {
+    width: 40.44px;
+    height: 40.44px;
+
+    /* Neo Brown/Neo brown 500 */
+
+    background: #BFA267;
+    border-radius: 30px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-self: center;
+}
+
+.hero3 .card {
+    background-color: #F9FAFB;
+}
+
+/* hero 3 */
+
+/* hero 4 */
+.hero4 {
+    background-image: url('./98121.png');
+    background-size: cover;
+    height: 537.97px;
+    margin-top: 250px
+    /* background-image: url("./assets/hero4-background.png");
+    background-size: cover;
+    height: 537.97px;
+    margin-top: 250px */
+}
+
+.hero4 h1 {
+    /* DIsplay 02/semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+
+
+    /* identical to box height, or 120% */
+    letter-spacing: -0.04em;
+
+    color: #000000;
+}
+
+.hero4 p {
+    /* Create your BUILD account now */
+
+    /* Heading 05 / h5 semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height, or 122% */
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.hero4 button {
+    /* Black */
+    background: #000000;
+    border-radius: 6px;
+
+
+    /* Text */
+
+    width: 200px;
+    height: 30px;
+
+    /* Paragraph02/ paragraph02 semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height, or 119% */
+
+    /* White */
+    color: #FFFFFF;
+}
+
+/* hero 4 */
+
+/* quote section */
+
+.quoteSection {
+    margin-top: 130px;
+    background-color: #BFA267;
+    height: 353px;
+}
+
+.quoteSection h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    /* or 121% */
+
+
+    letter-spacing: -0.02em;
+
+    /* GRAY/100gray */
+
+    color: #F3F4F6;
+}
+
+.quoteSection h4 {
+    font-family: 'Inter';
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    /* or 121% */
+
+
+    letter-spacing: -0.02em;
+    color: #F3F4F6;
+}
+
+.quoteSection h5 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* identical to box height, or 143% */
+
+
+    letter-spacing: -0.951389px;
+    color: #F3F4F6;
+}
+
+/* quote section */
+
+/* faq */
+.faq {
+    margin-top: 150px;
+}
+
+.faq h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 40px;
+    /* or 121% */
+
+    letter-spacing: -0.02em;
+
+    /* GRAY/800gray */
+
+    color: #1F2937;
+}
+
+.faqSection h1 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 40px;
+    /* or 121% */
+
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.faqSection h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* or 121% */
+
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.faqSection button {
+
+    width: 127px;
+    height: 34.98px;
+
+
+    /* Stroke 400 */
+
+    background: #BFA267;
+    color: #fff;
+    /* button */
+
+    box-shadow: 0px 4px 4px rgba(109, 114, 128, 0.16);
+    border-radius: 6px;
+}
+
+.faqSection p {
+    margin-bottom: 40px;
+}
+
+
+.question {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.107px;
+    line-height: 23px;
+    /* identical to box height, or 127% */
+
+
+    /* Neutral/800 */
+
+    color: #170F49;
+}
+
+.stickyFooter {
+    background: #000000;
+}
+
+.stickyFooter h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.2222px;
+    line-height: 23px;
+    
+
+
+    letter-spacing: -0.380556px;
+
+    
+
+    color: #ffffff;
+
+}
+
+
+
+/* hero 5 */
+
+.hero5 {
+    margin-top: 130px;
+}
+
+.hero5 h5 {
+
+    /* Paragraph03/ paragraph03 semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+    /* GRAY/800gray */
+    color: #1F2937;
+}
+
+.hero5 p {
+    /* Communicate the competition schedules, latest news and competition results with Build Live */
+
+    width: 356px;
+    height: 57px;
+
+
+    /* Paragraph02/ paragraph02 regular */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 12px;
+    line-height: 19px;
+    /* or 119% */
+
+    /* GRAY/800gray */
+    color: #1F2937;
+}
+
+/* hero 5 */
+
+/* pricing */
+
+.pricing {
+    margin-top: 180px;
+}
+
+.pricing .container h2 {
+    /* Simple, transparent pricing */
+    width: 50px;
+    height: 41px;
+
+    /* Heading 03/ h3 bold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 40px;
+    /* or 121% */
+    letter-spacing: -0.02em;
+
+    /* GRAY/800gray */
+    color: #1F2937;
+}
+
+.pricing h4 {
+    /* Choose a plan that works best for you. No surprise fees. Feel free to contact us if you need more details. */
+
+    width: 30px;
+    height: 18px;
+
+
+    /* Paragraph01/paragraph01 semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 121% */
+
+    color: #000000;
+
+
+}
+
+.pricing button {
+    /* Button */
+
+    width: 190px;
+    height: 34px;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.Description ul li {
+    color: black;
+}
+
+.details {
+    padding: 10px;
+    margin: 10px;
+}
+
+.details h6 {
+    padding: 20px;
+    margin: 20px;
+}
+
+.Description span {
+    color: red;
+}
+
+.Description .date {
+    border: 1px solid red;
+    background-color: red;
+    color: #fff;
+}
